@@ -114,7 +114,7 @@ public class game extends AppCompatActivity {
         int rnd = pitId[brPitanje];
         txtPitanje.setText(pitanja[rnd][0]);
         if (pitanja[rnd][1].equals("")) {
-            imgSlika.setImageResource(android.R.color.transparent);
+            imgSlika.setImageResource(R.drawable.erlen);
         } else {
             imgSlika.setImageResource(Integer.parseInt(pitanja[rnd][1]));
         }
@@ -142,7 +142,7 @@ public class game extends AppCompatActivity {
                 int rnd = pitId[brPitanje];
                 txtPitanje.setText(pitanja[rnd][0]);
                 if (pitanja[rnd][1].equals("")) {
-                    imgSlika.setImageResource(android.R.color.transparent);
+                    imgSlika.setImageResource(R.drawable.erlen);
                 } else {
                     imgSlika.setImageResource(Integer.parseInt(pitanja[rnd][1]));
                 }
@@ -189,7 +189,7 @@ public class game extends AppCompatActivity {
                         int rnd = pitId[brPitanje];
                         txtPitanje.setText(pitanja[rnd][0]);
                         if (pitanja[rnd][1].equals("")) {
-                            imgSlika.setImageResource(android.R.color.transparent);
+                            imgSlika.setImageResource(R.drawable.erlen);
                         } else {
                             imgSlika.setImageResource(Integer.parseInt(pitanja[rnd][1]));
                         }
@@ -228,7 +228,7 @@ public class game extends AppCompatActivity {
                 int rnd = pitId[brPitanje];
                 txtPitanje.setText(pitanja[rnd][0]);
                 if (pitanja[rnd][1].equals("")) {
-                    imgSlika.setImageResource(android.R.color.transparent);
+                    imgSlika.setImageResource(R.drawable.erlen);
                 } else {
                     imgSlika.setImageResource(Integer.parseInt(pitanja[rnd][1]));
                 }
@@ -275,7 +275,7 @@ public class game extends AppCompatActivity {
                         int rnd = pitId[brPitanje];
                         txtPitanje.setText(pitanja[rnd][0]);
                         if (pitanja[rnd][1].equals("")) {
-                            imgSlika.setImageResource(android.R.color.transparent);
+                            imgSlika.setImageResource(R.drawable.erlen);
                         } else {
                             imgSlika.setImageResource(Integer.parseInt(pitanja[rnd][1]));
                         }
@@ -313,7 +313,7 @@ public class game extends AppCompatActivity {
                 int rnd = pitId[brPitanje];
                 txtPitanje.setText(pitanja[rnd][0]);
                 if (pitanja[rnd][1].equals("")) {
-                    imgSlika.setImageResource(android.R.color.transparent);
+                    imgSlika.setImageResource(R.drawable.erlen);
                 } else {
                     imgSlika.setImageResource(Integer.parseInt(pitanja[rnd][1]));
                 }
@@ -360,7 +360,7 @@ public class game extends AppCompatActivity {
                         int rnd = pitId[brPitanje];
                         txtPitanje.setText(pitanja[rnd][0]);
                         if (pitanja[rnd][1].equals("")) {
-                            imgSlika.setImageResource(android.R.color.transparent);
+                            imgSlika.setImageResource(R.drawable.erlen);
                         } else {
                             imgSlika.setImageResource(Integer.parseInt(pitanja[rnd][1]));
                         }
@@ -399,7 +399,7 @@ public class game extends AppCompatActivity {
                 int rnd = pitId[brPitanje];
                 txtPitanje.setText(pitanja[rnd][0]);
                 if (pitanja[rnd][1].equals("")) {
-                    imgSlika.setImageResource(android.R.color.transparent);
+                    imgSlika.setImageResource(R.drawable.erlen);
                 } else {
                     imgSlika.setImageResource(Integer.parseInt(pitanja[rnd][1]));
                 }
@@ -446,7 +446,7 @@ public class game extends AppCompatActivity {
                         int rnd = pitId[brPitanje];
                         txtPitanje.setText(pitanja[rnd][0]);
                         if (pitanja[rnd][1].equals("")) {
-                            imgSlika.setImageResource(android.R.color.transparent);
+                            imgSlika.setImageResource(R.drawable.erlen);
                         } else {
                             imgSlika.setImageResource(Integer.parseInt(pitanja[rnd][1]));
                         }
