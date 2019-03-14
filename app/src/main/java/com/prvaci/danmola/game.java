@@ -2,6 +2,7 @@ package com.prvaci.danmola;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.media.Image;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -29,56 +30,27 @@ public class game extends AppCompatActivity {
             {"Koji od navedenih procesa ima veze sa primenom sumpora:","","centriranje trapa automobila","lakiranje","vulkanizacija gume","zavarivanje auspuha","3"},
             {"Koji se od sledecih nemetala nalazi u istoj grupi Periodnog sistemaelemenata sa sumporom:","","azot","kiseonik","hlor","ugljenik","2"},
             {"Odredi koja je od ponudjenih formula, formula nitritne kiseline:","","NH3","HNO2","HNO3","NO2","2"},
-            {"","",";","","","","3"},
-            {"","","","","","","2"},
+            {"Valenca azota u oksidu N2O2 je:","","II","IV","V","III","4"},
+            {"Azot se koristi:","","za konzerviranje hrane","kao sredstvo za čišćenje","prečišćavanje metala","za izradu šibica","1"},
             {"Izdvoj tačno tvrđenje:","","grafit i dijamant su jedinjenja ugljenika","Ugljenik(IV)-oksid je lakši od vazduha","Kristalna rešetka dijamanta sačinjena je od molekula ","Potpunim sagorevanjem ugljenika nastaje ukljen(II)-oksid","2"},
             {"Reakcijom CO2+H2O dobija se:","","HCO3","H2CO3","CH3OH","HCHO","3"},
-            {"","","","","","","1"},
-            {"Koji od ponuđenih stihova je tačan?","","Pokojni Lenski tad je pao...","","Srećni Lenski tad je pao…","Nesrećni Lenski tad je pao...","4"},
-            {"Koji od ponuđenih stihova je tačan?","","Od svega što je duši milo","Od svega što je duši gjilo","Od svega što je srcu milo","","3"},
-            {"Koji od ponuđenih stihova je tačan?","","Srce sam tada ispunio;","","Srce sam tada otrgao;","Srce sam tada pokidao;","3"},
-            {"Koji od ponuđenih stihova je tačan?","","Neometan ničim, ja sam zatim","Nevezan ničim, ja sam zatim","Nesprečiv ničim, ja sam zatim","","2"},
-            {"Koji od ponuđenih stihova je tačan?","","Mislio da sloboda može","Mislio da sreća može","Mislio da samoća može","","1"},
-            {"Koji od ponuđenih stihova je tačan?","","Da nadoknadi ljubav: Bože!","Da nadoknadi sreću: Bože!","Da nadoknadi tugu: Bože!","","2"},
-            {"Koji od ponuđenih stihova je tačan?","","Kako pogreših, kako patim!","Kako pogreših, kako smeh?","Kako pogreših, kako sam glup!","","1"},
-            {"Koji od ponuđenih stihova je tačan?","","Ne, da vas gledam, da vas volim.","Ne, da vas vidim, da vas špijuniram.","","Ne, da vas vidjam, da vas pratim.","4"},
-            {"Koji od ponuđenih stihova je tačan?","","Da svaki pokret, pogled hvatam","","Da svaki osmeh, pogled hvatam","Da svaki treptaj, pogled hvatam","3"},
-            {"Koji od ponuđenih stihova je tačan?","","Na vašem licu i da tugujem,","Na vašem licu i da patim,","Na vašim očima i da patim","","2"},
-            {"Koji od ponuđenih stihova je tačan?","","Vaš glas da slušam i da shvatim","Vaš pogled da posmatram i da shvatim","Vaše oči da gledam i da shvatim","","1"},
-            {"Koji od ponuđenih stihova je tačan?","","Svom dušom svojom vaše čari","Svim srcem svojim vaše čari","Svim srcem svojim vaše darove","","1"},
-            {"Koji od ponuđenih stihova je tačan?","","I savršenstva od svih veća.","I beskrajnosti od svih veća.","I lepote od svih veća.","","1"},
-            {"Koji od ponuđenih stihova je tačan?","","Da predahnem kraj vas ustvari,","Da premirem kraj vas u stvari,","Da uživam kraj vas u stvari,","","2"},
-            {"Koji od ponuđenih stihova je tačan?","","I da vas ljubim... to je sreća!","I da se gasiram… to je sreća!","","I da se gasim... to je sreća!","4"},
-            {"Koji od ponuđenih stihova je tačan?","","A ja sam lišen slobode;","A ja sam olešen od svega toga;","","A ja sam lišen svega toga;","4"},
-            {"Koji od ponuđenih stihova je tačan?","","Zbog vas moje srce luta svetom grubim;","","Zbog vas ja lutam svetom grubim;","Zbog vas ja letim svetom dobrodušnim;","3"},
-            {"Koji od ponuđenih stihova je tačan?","","Svaki je dan života moga","Svaki je čas života moga","Svaki je sekund života moga","","2"},
-            {"Koji od ponuđenih stihova je tačan?","","Večan, a ja zalud gubim","Dragocen, a ja zalud gubim","Mio, a ja zalud gubim","","2"},
-            {"Koji od ponuđenih stihova je tačan?","","Već ionako teške dane","Već ionako teške sate","Vec ionako lake dane","","1"},
-            {"Koji od ponuđenih stihova je tačan?","","Sudbinom teškom odbrojane.","Sudbinom slatkom odbrojane.","","Sudbinom gorkom odbrojane.","4"},
-            {"Koji od ponuđenih stihova je tačan?","","Moj život će skoro da se skrati;","Moja kosa će skoro da se skrati;","Moj vek će skoro da se skrati;","","3"},
-            {"Koji od ponuđenih stihova je tačan?","","Al' da bih bio živ, u svesti,","Al' da bih preživeo, u svesti,","Al’ da bih bio mrtav, u svesti,","","1"},
-            {"Koji od ponuđenih stihova je tačan?","","Ja svakog dana moram znati","Ja svakog jutra moram znati","Ja svake noći moram znati","","2"},
-            {"Koji od ponuđenih stihova je tačan?","","Da ću vas ikada sresti...","Da cu vas tokom sna sresti...","","Da ću vas tokom dana sresti...","4"},
-            {"Koji od ponuđenih stihova je tačan?","","Bojim se da se plašim","Razmišljam se da li se plaše","","Bojim se da se plaše","4"},
-            {"Koji od ponuđenih stihova je tačan?","","Od moje molbe duša vaša","Od moje molbe oči vaše","Od moje molbe usne vaše","","2"},
-            {"Koji od ponuđenih stihova je tačan?","","Ko od planova koje kujem...","Ko od savršenstva koje kujem...","","Ko od lukavstva koje kujem...","4"},
-            {"Koji od ponuđenih stihova je tačan?","","I gnevni prekor ja već osećam.","I gnevni prekor ja vec vidim.","I gnevni prekor ja već čujem.","","3"},
-            {"Koji od ponuđenih stihova je tačan?","","Da znate kako čudno boli","Da znate kako strašno boli","Da znate kako uopšte ne boli","","2"},
-            {"Koji od ponuđenih stihova je tačan?","","Ljubavnom žeđi biti moren,","Duševnom žeđi biti moren","Mučeničkom žeđi biti moren,","","1"},
-            {"Koji od ponuđenih stihova je tačan?","","U mojoj duši koja voli","U mom srcu koje voli","U mom mozgu koji mrzi","","2"},
-            {"Koji od ponuđenih stihova je tačan?","","Gušiti nemir ljubavlju stvoren!","","Gušiti nemir strašću stvoren!","Gušiti svemir strašću stvoren!","3"},
-            {"Koji od ponuđenih stihova je tačan?","","Ja žudim da kraj vaših grudi","Ja žudim da kraj vaših nogu","Ja žudim da kraj vaših cipela","","2"},
-            {"Koji od ponuđenih stihova je tačan?","","Sa suzama i bolom slijem","Sa poljupcima i zagrljajima slijem","Sa osmehom i bolom slijem","","1"},
-            {"Koji od ponuđenih stihova je tačan?","","Svu ljubav, molbe, sve što osećam;","Svu ljubav, molbe, sve što krijem;","Svu mržnju, kritike, sve što krijem;","","2"},
-            {"Koji od ponuđenih stihova je tačan?","","I sve što još izreći mogu!","I sve što još osetiti mogu!","I sve sto još pokazati mogu!","","1"},
-            {"Koji od ponuđenih stihova je tačan?","","A mesto tog, hladnoćom lažnom","A mesto tog, toplotom lažnom","A mesto tog, toplinom savršenom","","1"},
-            {"Koji od ponuđenih stihova je tačan?","","I reč i pogled ja krijem.","","I reč i pogled ja oružam.","I pokret i osmeh ja oružam.","3"},
-                    {"Koji od ponuđenih stihova je tačan?","","Govorim s vama o nesrećnom","","Govorim s vama o nevažnom","Govorim s vama o svemu važnom","3"},
-                    {"Koji od ponuđenih stihova je tačan?","","I veseo vam dodir pružam!...","I veseo vam osmeh pružam!...","I veseo vam prsten pružam!...","","2"},
-                    {"Koji od ponuđenih stihova je tačan?","","Da protivim vama, strasti,","Da obožavam sebe, strast,","","Da protivim sebi, strasti,","4"},
-                    {"Koji od ponuđenih stihova je tačan?","","Više u moći nije vašoj.","Više u moći nije mojoj.","Više u noći nije mojoj.","","3"},
-                    {"Koji od ponuđenih stihova je tačan?","","Reših: u vašoj ja sam vlasti","Reših: u mojoj vi ste vlasti","Reših: ja sam vaš vlasnik","","1"},
-                    {"Koji od ponuđenih stihova je tačan?","","I predajem se sudbini božjoj.","I predajem se sudbi svojoj.","I predajem se sudbi da me uništi.","","2"}};
+            {"Koje od navedenih svojstava odgovara ugljeniku(II)-oksidu:","","Koriste ga biljke u procesu fotosinteze","Nastaje potpunim sagorevanjem ugljenika","Sa vodom reaguje gradeći kiselinu","Nalazi se u duvanskom dimu","4"},
+            {"Koji od navedenih elemenata provodi elektricitet:","","kalijum","hlor","sumpor","fosfor","1"},
+            {"Koji iskaz je tacan? Srebro je:","","dobar provodnik","crvene boje","mekano i može se seći nožem","tečnog agregatnog stanja pri normalnim uslovima","1"},
+            {"Koji je najzastupljeniji metal u prirodi:","","zlato","bakar","kalijum","aluminijum","4"},
+            {"Koju vrstu čestica grade atomi metala pri povezivanju sa atomima nemetala:","","molekule","katjone","elektrone","anjone","2"},
+            {"Koji element ne pripada alkalnim metalima:","","natrijum","litijum","aluminijum","kalijum","3"},
+            {"Koja od supstanci ne sadrži kalcijum:","","kamena so","gašeni kreč","krečnjak","krečno mleko","1"},
+            {"Koja od ponudjenih supstanci ne reaguje sa vodom:","","litijum","kalcijum-oksid","kalcijum",",agnezijum-hidroksid","4"},
+            {"Koji iskaz nije tačan:","","bakar je metal crvene boje","čelik sadrži gvoždje i bakar","aluminijum je stabilan na vazduhu","plavi kamen je jedinjenje bakra","2"},
+            {"Metal koji ima magnetna svojstva je:","","bakar","srebro","gvoždje","aluminijum","4"},
+            {"Koji metal ima stalnu valencu:","","bakar","gvoždje","živa","natrijum","4"},
+            {"Koji od navedenih metala lako podlaže koroziji:","","srebro","gvoždje","platina","aluminijum","2"},
+            {"Legura aluminijuma je:","","silijum","bronza","kalaj","čelik","1"},
+            {"Koja od legura u svom osnovnom sadržaju sadrži nemetal:","","mesing","bronza","duraluminijum","čelik","4"},
+            {"Mesing je legura:","","bakra i cinka","bakra i kalaja","gvoždja i cinka","gvoždja i kalaja","1"},
+            {"Koji oksid gvoždja nastaje dužim stajanjem na vazduhu u vlažnim uslovima:","","Fe2","FeO","Fe(OH)2","Fe2O3","4"},
+            };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -162,6 +134,7 @@ public class game extends AppCompatActivity {
             String tacan = "";
             switch (corAns){
                 case "1":
+
                     tacan = butAnswer1.getText().toString();
                     break;
                 case "2":
