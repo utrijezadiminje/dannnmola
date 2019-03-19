@@ -16,6 +16,7 @@ public class gameend extends AppCompatActivity {
         int tacni = intent.getIntExtra("tacni",0);
         String tacnistr = tacni + "/10";
         TextView txtTacni = findViewById(R.id.txtTacni);
+        TextView osvojeni=findViewById(R.id.osvojeni);
         txtTacni.setText(tacnistr);
     }
 
