@@ -440,9 +440,14 @@ public class game extends AppCompatActivity {
             dialog.show();
         }
     }
-
+public int backpress=0;
     @Override
     public void onBackPressed() {
-        //Nothing
+        backpress+=1;
+        Toast.makeText(getApplicationContext(), " Press Back again to Exit ", Toast.LENGTH_SHORT).show();
+        if(backpress>1)
+        {
+            super.onBackPressed();
+        }
     }
 }
