@@ -4,6 +4,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.media.Image;
+import android.media.MediaPlayer;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -109,6 +110,8 @@ public class game extends AppCompatActivity {
         if(corAns=="1")
         {
             tacni++;
+            MediaPlayer tacan=MediaPlayer.create(this,R.raw.correct_answer);
+            tacan.start();
             Toast.makeText(this, "Čestitamo! Tačan odgovor!", Toast.LENGTH_SHORT).show();
             if(brPitanje<10) {
                 int rnd = pitId[brPitanje];
@@ -147,6 +150,8 @@ public class game extends AppCompatActivity {
                     tacan = butAnswer4.getText().toString();
                     break;
             }
+            MediaPlayer netacan=MediaPlayer.create(this,R.raw.incerrect_answer);
+            netacan.start();
             builder.setMessage("Netačan odgovor. Tačan odgovor je: " + tacan)
                     .setTitle("Netačno");
 
@@ -196,6 +201,8 @@ public class game extends AppCompatActivity {
         if(corAns=="2")
         {
             tacni++;
+            MediaPlayer tacan=MediaPlayer.create(this,R.raw.correct_answer);
+            tacan.start();
             Toast.makeText(this, "Čestitamo! Tačan odgovor!", Toast.LENGTH_SHORT).show();
             if(brPitanje<10) {
                 int rnd = pitId[brPitanje];
@@ -233,6 +240,8 @@ public class game extends AppCompatActivity {
                     tacan = butAnswer4.getText().toString();
                     break;
             }
+            MediaPlayer netacan=MediaPlayer.create(this,R.raw.incerrect_answer);
+            netacan.start();
             builder.setMessage("Netačan odgovor. Tačan odgovor je: " + tacan)
                     .setTitle("Netačno");
 
@@ -281,6 +290,8 @@ public class game extends AppCompatActivity {
         if(corAns=="3")
         {
             tacni++;
+            MediaPlayer tacan=MediaPlayer.create(this,R.raw.correct_answer);
+            tacan.start();
             Toast.makeText(this, "Čestitamo! Tačan odgovor!", Toast.LENGTH_SHORT).show();
             if(brPitanje<10) {
                 int rnd = pitId[brPitanje];
@@ -318,6 +329,8 @@ public class game extends AppCompatActivity {
                     tacan = butAnswer4.getText().toString();
                     break;
             }
+            MediaPlayer netacan=MediaPlayer.create(this,R.raw.incerrect_answer);
+            netacan.start();
             builder.setMessage("Netačan odgovor. Tačan odgovor je: " + tacan)
                     .setTitle("Netačno");
 
@@ -367,6 +380,8 @@ public class game extends AppCompatActivity {
         if(corAns=="4")
         {
             tacni++;
+            MediaPlayer tacan=MediaPlayer.create(this,R.raw.correct_answer);
+            tacan.start();
             Toast.makeText(this, "Čestitamo! Tačan odgovor!", Toast.LENGTH_SHORT).show();
             if(brPitanje<10) {
                 int rnd = pitId[brPitanje];
@@ -404,6 +419,8 @@ public class game extends AppCompatActivity {
                     tacan = butAnswer4.getText().toString();
                     break;
             }
+            MediaPlayer netacan=MediaPlayer.create(this,R.raw.incerrect_answer);
+            netacan.start();
             builder.setMessage("Netačan odgovor. Tačan odgovor je: " + tacan)
                     .setTitle("Netačno");
 
